@@ -9,3 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r librarym, message = FALSE}
+library(tidyverse)
+```
+
+
+### Image section
+```{r}
+knitr::include_graphics("Images/fork-it.png")
+```
+
